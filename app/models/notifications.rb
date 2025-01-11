@@ -1,4 +1,4 @@
-module Product::Notifications
+module Notifications
   extend ActiveSupport::Concern
 
   included do
@@ -16,3 +16,4 @@ module Product::Notifications
     end
   end
 end
+
